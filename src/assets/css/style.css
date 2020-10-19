@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(36, 152, 160);
+}
+
+/* Header Start */
+header {
+  padding: 20px 35px;
+  background-color: rgb(16, 124, 196);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(153, 207, 238);
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(153, 207, 238);
+  margin: 0;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+/* Header End */
+
+/* Hero Start */
+.about-me {
+  padding: 10px;
+  background-image: url(../images/hero-bg3.jpg);
+  margin: 10px 15px;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.about-me img {
+  margin-right: 10px;
+  max-width: 100%;
+  float: left;
+  border-radius: 50%;
+}
+
+.my-info {
+  margin: 20px 20px;
+  padding: 40px;
+}
+
+.my-info h2 {
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  padding-bottom: 20px;
+  color: rgb(18, 88, 180);
+  text-align: center;
+  width: 100%;
+  display: flex;
+}
+
+.my-info p {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  color: rgb(18, 88, 180);
+  background-color: rgb(157, 191, 219);
+  background: rgba(157, 191, 219, 0.3);
+  overflow: auto;
+  text-align: center;
+  display: flex;
+}
+
+/* Hero End */
+
+/* My Work Start */
+
+.project-grid-wrapper {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+
+.project-links-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 5vw);
+  grid-gap: 0px;
+}
+
+.project-link-item {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+.box1 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  background-color: blue;
+}
+
+.box2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+
+.box4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.box5 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+}
+
+.container {
+  display: grid;
+  flex-direction: column;
+}
+
+/* My Work End */
+
+/* Contact Me Start */
+.contact-info {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px;
+}
+
+/* Contact Me End */
+
+/* Flex Start */
+
+.flex-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.flex-column {
+  display: flex;
+}
+
+/* Flex End */
+
+.section-title {
+  font-size: 55px;
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: rgb(18, 88, 180);
+  padding-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+}
+
+/* Tablets and smaller */
+@media screen and (max-width: 768px) {
+}
+
+/* Mobile phones and smaller */
+@media screen and (max-width: 350px) {
+}

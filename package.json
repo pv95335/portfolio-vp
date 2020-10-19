@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node App.js"
+    "start": "node App.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/pv95335/portfolio-vp/issues"
   },
-  "homepage": "https://github.com/pv95335/portfolio-vp#readme"
+  "homepage": "https://github.com/pv95335/portfolio-vp/portfolio-port/App.js",
+  "devDependencies": {
+    "react-scripts": "^3.4.3"
+  }
 }

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.78569f34.chunk.css",
+    "main.js": "/static/js/main.84a1e249.chunk.js",
+    "main.js.map": "/static/js/main.84a1e249.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.20114c95.js",
+    "runtime-main.js.map": "/static/js/runtime-main.20114c95.js.map",
+    "static/js/2.d89386e0.chunk.js": "/static/js/2.d89386e0.chunk.js",
+    "static/js/2.d89386e0.chunk.js.map": "/static/js/2.d89386e0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6c5372af150fa7c354b4b369315183d9.js": "/precache-manifest.6c5372af150fa7c354b4b369315183d9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.78569f34.chunk.css.map": "/static/css/main.78569f34.chunk.css.map",
+    "static/js/2.d89386e0.chunk.js.LICENSE.txt": "/static/js/2.d89386e0.chunk.js.LICENSE.txt",
+    "static/media/Trakster.PNG": "/static/media/Trakster.9a5f80c5.PNG",
+    "static/media/bookGarden.PNG": "/static/media/bookGarden.06c9260b.PNG",
+    "static/media/horiseon.PNG": "/static/media/horiseon.06e0f6a3.PNG",
+    "static/media/myPicture.jpg": "/static/media/myPicture.8a085ecd.jpg",
+    "static/media/runBuddy.JPG": "/static/media/runBuddy.60fb0069.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20114c95.js",
+    "static/js/2.d89386e0.chunk.js",
+    "static/css/main.78569f34.chunk.css",
+    "static/js/main.84a1e249.chunk.js"
+  ]
+}
